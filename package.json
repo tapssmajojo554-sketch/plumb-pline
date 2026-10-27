@@ -1,0 +1,8 @@
+{
+  "name": "plumbline-campaign",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "rm -rf dist docs && cp -R public dist && cp -R public docs && touch docs/.nojekyll"
+  }
+}
